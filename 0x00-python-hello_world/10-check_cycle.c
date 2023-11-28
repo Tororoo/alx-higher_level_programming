@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <lists.h>
+#include "lists.h"
 /**
  * check_cycle - checks if list is cyclical
  * @list: pointer to list to check
