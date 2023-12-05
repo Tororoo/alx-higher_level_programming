@@ -7,5 +7,5 @@ def print_matrix_integer(matrix=[[]]):
         if len(sub_matrix) == 0:
             print()
         for i in range(len(sub_matrix)):
-            print("{:d}".format(sub_matrix[i]),
-                end="\n" if i == len(sub_matrix) - 1 else " ")
+            print("{:d}".format(sub_matrix[i]), end="\n" if i == len(sub_matrix) - 1 else " ")
+    print()
