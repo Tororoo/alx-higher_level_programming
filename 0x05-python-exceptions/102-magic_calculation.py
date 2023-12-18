@@ -6,11 +6,7 @@ def magic_calculation(a, b):
             if i > a:
                 raise Exception('Too far')
             result += a ** b / i
-        except Exception as e:
+        except Exception:
             result = b + a
-            print(e)
             break
-    else:
-        # This block will execute if the loop completes without a 'break'.
-        result = result + 10
     return result
